@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="main">
+		<h1>Select text with your mouse (like double clicking words) to add options for them</h1>
+		<div class="form">
+			<div class="textContainer">
+				<div class="text_part">
+					<div class="textarea_container">
+						<textarea class="new_text" placeholder="Enter new text to replace words" id="new_text" cols="30" rows="10"></textarea>
+						<div>
+							<button class="button update_text" id="update_text">Update text</button>
+						</div>
+					</div>
+					<div class="user_text" id="user_text"></div>
+					<div class="row">
+						<button class="button" id="reset">Reset text</button>
+						<button class="button" id="upload">Upload</button>
+					</div>
+				</div>
+				<div class="options" id="options">
+					<div class="inputs" id="inputs">
+						<div>
+							<input class="options_input" type="text" name="option">
+						</div>
+					</div>
+					<div class="buttons" id="buttons">
+						<div class="row">
+							<button class="button options_button" id="add_options">Add Options</button>
+							<button class="button options_button" id="delete_options">Delete Options</button>
+						</div>
+						<div class="row">
+							<button class="button options_button" id="clear_options">Clear</button>
+							<button class="button options_button" id="done">Done</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script_admin.js"></script>
+	<script src="buttons_event_listeners.js"></script>
+	<script src="textcontainer_event_listeners.js"></script>
+</body>
+</html>

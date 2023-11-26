@@ -1,0 +1,101 @@
+body {
+	background-color: blanchedalmond;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.text_part {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+select {
+	border: 1px solid purple;
+	padding: 5px;
+	background-color: rgb(213, 186, 240);
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.new_text {
+	font-size: 15px;
+	background-color: rgb(213, 186, 240);
+}
+
+.new_text::placeholder {
+	color: black;
+	opacity: 0.8;
+}
+
+.textarea_container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.options_input {
+	padding: 5px;
+	margin: 10px;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.button {
+	border: 1px solid purple;
+	background-color: rgb(213, 186, 240);
+	border-radius: 10px;
+	margin: 10px;
+	padding: 5px;
+}
+
+.form {
+	min-width: 100vh;
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.textContainer {
+	display: flex;
+	align-items: center;
+}
+
+.options {
+	min-width: 200px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.text {
+	min-width: 100vh;
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.user_text {
+	word-wrap: break-word;
+	min-height: 100px;
+	max-width: 90vh;
+	font-size: 18px;
+	padding: 20px;
+}
+
+.text {
+	word-wrap: break-word;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+}
